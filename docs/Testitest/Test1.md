@@ -4,7 +4,7 @@ title: "Test-Page"
 permalink: /Testitest/
 ---
 
-{:toc}
+* TOC {:toc}
 
 
 
