@@ -28,6 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+bootwatch: journal
 highlighter: rouge
 markdown: kramdown
 kramdown:
@@ -39,10 +41,13 @@ kramdown:
 
 # Build settings
 #theme: minima
-#plugins:
+plugins:
 # - jekyll-feed
+- jekyll-remote-theme
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: benbalter/retlab
+
+# remote_theme: just-the-docs/just-the-docs
 
 
 # Exclude from processing.
